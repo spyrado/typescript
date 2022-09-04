@@ -1,5 +1,5 @@
 // This is an industrial-grade general-purpose greeter function:
-function greet(person: any, date: Date) {
+function test1(person: any, date: Date) {
   console.log(`Hello ${person}, today is ${date}!`);
 }
  
@@ -10,4 +10,4 @@ function greet(person: any, date: Date) {
 // o "noEmitOnError": seria false -> "noEmitOnError": false, e só iria ser ativado após toda a migração seja concluída com sucesso.
 
 // =================== DESCOMENTE AQUI PARA ENTENDER A EXPLICAÇÃO ====================
-// greet("Brendan", 'qualquer-coisa');
+// test1("Brendan", 'qualquer-coisa');
