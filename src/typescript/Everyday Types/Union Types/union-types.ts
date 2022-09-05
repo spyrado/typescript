@@ -1,6 +1,13 @@
-// como resolver quando utilizamos union types
-// Sempre verifique o tipo que você espera para fazer algum tratamento, ou seja
-// if typeof id === 'number' faz coisas de number, if typeof id === 'string' faz coisas de string e por ai vai.
+/**
+ * 
+  como resolver quando utilizamos union types
+  Sempre verifique o tipo que você espera para fazer algum tratamento, ou seja
+  if typeof id === 'number' faz coisas de number, if typeof id === 'string' faz coisas de string e por ai vai.
+
+  Isso vale para qualquer tipo de union type, como number string array e etc, sempre verifique o tipo
+  antes de fazer algo
+ */
+
 // Caso errado: 
 
 // function printId1(id: number | string) {
